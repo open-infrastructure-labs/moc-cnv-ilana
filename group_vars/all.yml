@@ -1,0 +1,6 @@
+---
+os_cluster_name: ilana-cnv
+os_base_domain: cnv2.massopen.cloud
+os_vip_api: 192.12.185.141
+os_vip_ingress: 192.12.185.143
+os_vip_dns: 192.12.185.142

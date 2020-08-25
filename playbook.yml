@@ -1,0 +1,7 @@
+---
+- hosts: nameservers
+  tags: infra
+  become: true
+  roles:
+    - role: dnsmasq
+      tags: dnsmasq
