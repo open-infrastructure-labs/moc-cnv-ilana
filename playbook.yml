@@ -1,5 +1,6 @@
 ---
 - hosts: nameservers
+  gather_facts: false
   tags: infra
   become: true
   collections:
